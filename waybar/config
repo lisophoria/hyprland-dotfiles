@@ -33,8 +33,8 @@
         "format-en": "en",
     },
     "network": {
-        "format-wifi": "直  {essid}",
-        "format-disconnected": "睊",
+        "format-wifi": "󰖩  {essid}",
+        "format-disconnected": "󰖪",
         "max-length": 50,
         "tooltip": false,
     },
@@ -72,8 +72,8 @@
     "pulseaudio#microphone": {
         "format": "{format_source}",
         "tooltip": false,
-        "format-source": " {volume}%",
-        "format-source-muted": " Muted",
+        "format-source": "󰍬 {volume}%",
+        "format-source-muted": " Muted",
         "on-click": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle",
         "on-scroll-up": "wpctl set-volume -l 1 @DEFAULT_AUDIO_SOURCE@ 5%+",
         "on-scroll-down": "wpctl set-volume -l 1 @DEFAULT_AUDIO_SOURCE@ 5%-",
