@@ -1,0 +1,4 @@
+### Dependencies
+```
+yay -S cliphist dunst grim hyprland-git hyprpaper kitty pipewire pipewire-alsa pipewire-pulse polkit-kde-agent qt5-wayland qt6-wayland ranger slurp ttf-jetbrains-mono-nerd udiskie waybar wireplumber wlroots wofi xdg-desktop-portal-hyprland xdg-user-dirs zsh
+```
