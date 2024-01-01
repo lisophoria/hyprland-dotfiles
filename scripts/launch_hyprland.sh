@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cd ~
-export _JAVA_SWT_WM_NONREPARENTING=1
+export _JAVA_AWT_WM_NONREPARENTING=1
 export XCURSOR_SIZE=24
 export XDG_SESSION_TYPE=wayland
 export QT_QPA_PLATFORM=wayland
