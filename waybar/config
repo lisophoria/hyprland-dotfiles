@@ -24,7 +24,8 @@
         "format": "  {}",
     },
     "clock": {
-        "format": "{:  %R %d/%m}",
+	"interval": 60,
+        "format": "  {:%H:%M %d/%m}",
         "tooltip": false,
     },
     "hyprland/language": {
